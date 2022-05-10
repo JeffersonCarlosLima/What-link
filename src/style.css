@@ -95,6 +95,25 @@ img {
     height: 32px;
 }
 
+@media screen and (max-width:320px) {
+    img {
+        width: 120px;
+    }
+    .content {
+        width: 250px;
+    }
+    textarea {
+        height: 180px;
+    }
+    .titulo-page {
+        font-size: 20px;
+    }
+    .subtitulo-page {
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
+
 ::-webkit-input-placeholder {
     color: rgb(7, 60, 7);
     padding-left: 8px;
