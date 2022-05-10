@@ -1,0 +1,115 @@
+body {
+    background-color: #128C7E;
+}
+
+.container {
+    font-family: 'Hind Siliguri', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.content {
+    border: none;
+    border-radius: 24px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    width: 500px;
+    padding: 16px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+img {
+    position: static;
+    width: 156px;
+    left: 105px;
+    top: 24px;
+}
+
+.titulo-page {
+    margin-top: 24px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.subtitulo-page {
+    margin: 16px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.formulário {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-label {
+    margin-top: 24px;
+    font-weight: 600;
+}
+
+.telefone {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    width: auto;
+    height: 32px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+}
+
+.campo-texto {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+}
+
+.btn-enviar {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 24px;
+    color: aliceblue;
+    background-color: #128C7E;
+    width: 150px;
+    height: 32px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(7, 60, 7);
+    padding-left: 8px;
+}
+
+.campo-texto::-webkit-input-placeholder {
+    color: rgb(7, 60, 7);
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+input:-moz-placeholder {
+    color: rgb(7, 60, 7);
+}
+
+textarea:-moz-placeholder {
+    color: rgb(7, 60, 7);
+}

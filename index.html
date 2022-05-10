@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css">
+    <script src="/src/function.js"></script>
+    <title>Envio de mensagens para whatsapp</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="top">
+            <img src="whatsapp.svg" alt="imagem ilustrativa do whatsapp">
+            <h3 class="titulo-page">WhatsappExpress</h3>
+            <p class="subtitulo-page">Envie mensagens para contatos não agendados</p>
+        </div>
+        <div class="content">
+
+            <form class="formulário">
+
+                <label class="titulo-label" for="telefone" title="Digite aqui seu contato não agendado">Contato</label>
+                <input class="telefone" type="tel" id="telefone" placeholder="Ex. 63999999999" title="Digite todos os números sem espaços">
+
+
+                <label class="titulo-label" for="texto" title="Descreva a mensagem que deseja enviar">Mensagem</label>
+                <textarea class="campo-texto" type="text" id="texto" rows="12" cols="6" placeholder="Digite sua mensagem aqui." title="Descreva a mensagem que deseja enviar"></textarea>
+                <button type="button" class="btn-enviar" title="Enviar agora" onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
