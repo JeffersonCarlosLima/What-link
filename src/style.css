@@ -95,7 +95,7 @@ img {
     height: 32px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:720px) {
     img {
         width: 120px;
     }
