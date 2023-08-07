@@ -132,3 +132,17 @@ input:-moz-placeholder {
 textarea:-moz-placeholder {
     color: rgb(7, 60, 7);
 }
+.campolink{
+    color:#00584e;
+    background-color: #a3fff4;
+    padding: 16px;
+    margin: 16px 8px;
+    border-radius: 8px;
+}
+.copiarItens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
