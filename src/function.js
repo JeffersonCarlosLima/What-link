@@ -29,11 +29,15 @@ function gerarLink() {
 function copiar(){
     if(telefone<=0){
         alert('Digite um número de celular válido');
-        navigator.clipboard.writeText(linkgerado);
-        //console.log("dados copiados")
         
-        //alterara o nome do botão e modificar a cor
-        document.getElementById("copiarLink").innerHTML = "Copiado";
-        $("#copiarLink").addClass("btn-copiado");
     }
+        else{
+
+            navigator.clipboard.writeText(linkgerado);
+            //console.log("dados copiados")
+            
+            //alterara o nome do botão e modificar a cor
+            document.getElementById("copiarLink").innerHTML = "Copiado";
+            $("#copiarLink").addClass("btn-copiado");
+        }
     }
