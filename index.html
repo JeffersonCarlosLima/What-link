@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
-    <script src="src/function.js"></script>
     <title>Envio de mensagens para whatsapp</title>
 </head>
 
@@ -19,28 +18,30 @@
         <div class="top">
             <img src="img/whatsapp.svg" alt="imagem ilustrativa do whatsapp">
             <h3 class="titulo-page">WhatsappExpress</h3>
-            <p class="subtitulo-page">Envie mensagens para contatos não agendados</p>
+            <p class="subtitulo-page">Gerador de link personalizado</p>
         </div>
         <div class="content">
-
+            
             <form class="formulário">
 
-                <label class="titulo-label" for="telefone" title="Digite aqui seu contato não agendado">Contato</label>
+                <label class="titulo-label" for="telefone" title="Digite aqui seu contato com DDD">Contato</label>
                 <input class="telefone" type="tel" id="telefone" placeholder="Ex. 63999999999" title="Digite todos os números sem espaços" required>
-
-
+                
+                
                 <label class="titulo-label" for="texto" title="Descreva a mensagem que deseja enviar">Mensagem</label>
                 <textarea class="campo-texto" type="text" id="texto" rows="12" cols="6" placeholder="Digite sua mensagem aqui." title="Descreva a mensagem que deseja enviar"></textarea>
-                <button type="button" class="btn-enviar" title="Enviar agora" onclick="gerarLink()">Enviar</button>
+                <button type="button" class="btn" title="Enviar agora" onclick="gerarLink()">Gerar Link</button>
             </form>
             <div id="copiarItens">
-                <button type="button" class="btn-enviar" title="Enviar agora" onclick="copiar()">Enviar</button>
                 <div class="campolink">
-                    <p id="linkwhatsapp">link</p> 
+                    <p id="linkwhatsapp">Informe os dados acima para gerar o link</p> 
+                    <button id="copiarLink" type="button" class="btn btn-copiar" title="Enviar agora" onclick="copiar()">Copiar</button>
                 </div>
             </div>
         </div>
     </section>
+    <script src="src/function.js"></script>
+    <script src="src/code.jquery.com_jquery-3.7.0.js"></script>
 </body>
 
 </html>

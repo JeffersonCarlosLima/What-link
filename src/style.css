@@ -72,6 +72,10 @@ img {
     height: 32px;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
+    padding: 8px 16px;
+}
+.telefone::placeholder{
+   color: #8e8e8e;
 }
 
 .campo-texto {
@@ -81,9 +85,13 @@ img {
     border-radius: 8px;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 300;
+    padding: 16px;
+}
+.campo-texto::placeholder{
+   color: #8e8e8e;
 }
 
-.btn-enviar {
+.btn {
     margin-top: 16px;
     font-weight: 600;
     font-size: 16px;
@@ -133,6 +141,9 @@ textarea:-moz-placeholder {
     color: rgb(7, 60, 7);
 }
 .campolink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#00584e;
     background-color: #a3fff4;
     padding: 16px;
@@ -144,5 +155,19 @@ textarea:-moz-placeholder {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
+
+}
+#linkwhatsapp{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.btn-copiar{
+    cursor: pointer!important;
+    margin-top: 0px !important;
+    z-index: 2;
+}
+.btn-copiado{
+    background-color: white;
+    color: #00584e;
 }
