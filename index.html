@@ -31,8 +31,12 @@
 
                 <label class="titulo-label" for="texto" title="Descreva a mensagem que deseja enviar">Mensagem</label>
                 <textarea class="campo-texto" type="text" id="texto" rows="12" cols="6" placeholder="Digite sua mensagem aqui." title="Descreva a mensagem que deseja enviar"></textarea>
-                <button type="button" class="btn-enviar" title="Enviar agora" onclick="enviar()">Enviar</button>
+                <button type="button" class="btn-enviar" title="Enviar agora" onclick="gerarLink()">Enviar</button>
             </form>
+            <div id="copiarItens">
+                <button type="button" class="btn-enviar" title="Enviar agora" onclick="copiar()">Enviar</button>
+                <p id="linkwhatsapp">link</p> 
+            </div>
         </div>
     </section>
 </body>
