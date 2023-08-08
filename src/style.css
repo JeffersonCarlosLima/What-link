@@ -160,9 +160,7 @@ textarea:-moz-placeholder {
 #linkwhatsapp{
     width: 100%;
     display: flex;
-    text-overflow: clip;
-    text-overflow: ellipsis;
-    text-overflow: "…";
+    overflow: hidden;
 }
 .btn-copiar{
     cursor: pointer!important;
