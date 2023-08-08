@@ -102,19 +102,22 @@ body {
     width: 150px;
     height: 32px;
 }
-
-@media screen and (max-width:720px) {
-    img {
-        width: 120px;
-    }
+@media screen and (min-width:320px) and (max-width:375px) {
     .content {
         width: 250px;
     }
+    .subtitulo-page {
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+
+    .content {
+        width: 350px;
+    }
     textarea {
         height: 180px;
-    }
-    .titulo-page {
-        font-size: 20px;
     }
     .subtitulo-page {
         font-size: 14px;
@@ -123,7 +126,7 @@ body {
 }
 
 ::-webkit-input-placeholder {
-    color: rgb(7, 60, 7);
+    color: rgb(139, 139, 139);
     padding-left: 8px;
 }
 
@@ -138,7 +141,7 @@ input:-moz-placeholder {
 }
 
 textarea:-moz-placeholder {
-    color: rgb(7, 60, 7);
+    color: rgb(140, 141, 140);
 }
 .campolink{
     display: flex;
