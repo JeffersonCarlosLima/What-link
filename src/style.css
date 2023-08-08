@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 16px;
 }
 
 .content {
@@ -25,14 +25,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 24px;
+    padding: 16px;
 }
 
-img {
+.top img {
     position: static;
-    width: 156px;
-    left: 105px;
-    top: 24px;
+    width: 30%;
+    top: 16px;
+
 }
 
 .titulo-page {
