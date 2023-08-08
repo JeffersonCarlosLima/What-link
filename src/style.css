@@ -171,3 +171,7 @@ textarea:-moz-placeholder {
     background-color: white;
     color: #00584e;
 }
+.btn-desable{
+    opacity:.2 ;
+    background-color: #5d5d5d !important;
+}
