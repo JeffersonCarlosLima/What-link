@@ -114,7 +114,7 @@ body {
 @media screen and (min-width:425px) and (max-width:767px) {
 
     .content {
-        width: 350px;
+        width: 250px;
     }
     textarea {
         height: 180px;
