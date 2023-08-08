@@ -36,9 +36,11 @@ function copiar(){
             navigator.clipboard.writeText(linkgerado);
             //console.log("dados copiados")
             
-            //alterara o nome do botão e modificar a cor
+            //altera o nome do botão e modificar a cor
             document.getElementById("copiarLink").innerHTML = "Copiado";
             $("#copiarLink").addClass("btn-copiado");
+
+            //define um timer de 3s para voltar o botão para o status de origem
             setTimeout(()=>{
                 $("#copiarLink").removeClass("btn-copiado")
                 document.getElementById("copiarLink").innerHTML = "Copiar";
