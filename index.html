@@ -20,26 +20,28 @@
             <img src="img/logo.svg" alt="Logo what-link">
             <p class="subtitulo-page">Gerador de link personalizado para Whatsapp</p>
         </div>
-        <div class="content">
-            
-            <form class="formulário">
-
-                <label class="titulo-label" for="telefone" title="Digite aqui seu contato com DDD">Contato</label>
-                <input class="telefone" type="tel" id="telefone" placeholder="Ex. 63999999999" title="Digite todos os números sem espaços" required>
+        
+            <div class="content">
                 
-                
-                <label class="titulo-label" for="texto" title="Descreva a mensagem que deseja enviar">Mensagem</label>
-                <textarea class="campo-texto" type="text" id="texto" rows="12" cols="6" placeholder="Digite sua mensagem aqui." title="Descreva a mensagem que deseja enviar"></textarea>
-                <button type="button" class="btn" title="Enviar agora" onclick="gerarLink()">Gerar Link</button>
-            </form>
-            <div id="copiarItens">
-                <div class="campolink">
-                    <p id="linkwhatsapp">Informe os dados acima para gerar o link</p> 
-                    <button id="copiarLink" type="button" class="btn btn-copiar btn-desable" title="Enviar agora" onclick="copiar()">Copiar</button>
+                <form class="formulário">
+                    
+                    <label class="titulo-label" for="telefone" title="Digite aqui seu contato com DDD">Contato</label>
+                    <input class="telefone" type="tel" id="telefone" placeholder="Ex. 63999999999" title="Digite todos os números sem espaços" required>
+                    
+                    
+                    <label class="titulo-label" for="texto" title="Descreva a mensagem que deseja enviar">Mensagem</label>
+                    <textarea class="campo-texto" type="text" id="texto" rows="12" cols="6" placeholder="Digite sua mensagem aqui." title="Descreva a mensagem que deseja enviar"></textarea>
+                    <button type="button" class="btn" title="Enviar agora" onclick="gerarLink()">Gerar Link</button>
+                </form>
+                <div id="copiarItens">
+                    <div class="campolink">
+                        <p id="linkwhatsapp">Informe os dados acima para gerar o link</p> 
+                        <button id="copiarLink" type="button" class="btn btn-copiar btn-desable" title="Enviar agora" onclick="copiar()">Copiar</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+
+        </section>
     <script src="src/function.js"></script>
     <script src="src/code.jquery.com_jquery-3.7.0.js"></script>
 </body>
